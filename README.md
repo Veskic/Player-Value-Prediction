@@ -1,4 +1,3 @@
-# Player value prediction
 # 🎮 Player Market Value Prediction (FIFA 21)
 
 This project uses machine learning to predict the market value of football players using their physical and technical attributes, based on the FIFA 21 dataset.
@@ -32,3 +31,28 @@ Player-Value-Prediction/
 │
 ├── requirements.txt
 └── README.md
+```
+## 📊 Dataset
+
+- **Source:** [Kaggle - FIFA 21 Complete Player Dataset](https://www.kaggle.com/datasets/stefanoleone992/fifa-21-complete-player-dataset)
+- **Rows:** ~18,944 total players
+- **After Cleaning:** ~16,654 players
+- **Target Variable:** `value_eur` (market value in Euros)
+
+---
+
+## 🛠️ Technologies
+
+- Python (3.10+)
+- Libraries: Pandas, NumPy, scikit-learn, Matplotlib
+- Jupyter Notebooks
+
+---
+
+## 💡 Features
+
+- Predict market value of players without official value
+- Detect undervalued players by comparing predicted vs actual
+- Visualize feature importances and top predictions
+- Input new player stats and get instant value prediction
+- Export results to CSV for further analysis
